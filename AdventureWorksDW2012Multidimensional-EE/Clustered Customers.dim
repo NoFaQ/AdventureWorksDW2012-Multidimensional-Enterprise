@@ -1,0 +1,261 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="902936b0-08bb-40a4-ab7d-b6bde1d64c6f" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Clustered Customers</ID>
+  <Name>Clustered Customers</Name>
+  <CreatedTimestamp>2012-02-09T22:06:34.983333Z</CreatedTimestamp>
+  <LastSchemaUpdate>2012-02-09T22:16:31.366667Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1289" scrolltop="-8450" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="11232" y="22516" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="0100000090019e330100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DIMENSION_CONTENT_ROWSET" left="329" top="-7465" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="5287" height="8214" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000a714000016200000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="DIMENSION_CONTENT_ROWSET" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1289</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-8450</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>329</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-7465</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>2012-02-09T22:08:44.603333Z</LastProcessed>
+  <State>Processed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="be098f12-d2ca-4530-b4a3-2dc333c8c20c">
+    <DataSourceViewID>Clustered Customers_DMDSV</DataSourceViewID>
+  </Source>
+  <MiningModelID>Customer Clusters</MiningModelID>
+  <ErrorConfiguration dwd:design-time-name="fd171a14-7dd8-438a-accb-d598fbedcd44">
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Language>1033</Language>
+  <Collation>Latin1_General_CI_AS</Collation>
+  <UnknownMemberName>Unknown</UnknownMemberName>
+  <Translations>
+    <Translation dwd:design-time-name="ed07122c-f0e5-4f34-b442-990d9faf5f7a">
+      <Language>3082</Language>
+      <Caption>Clientes Agrupados</Caption>
+    </Translation>
+    <Translation dwd:design-time-name="5c2e61fa-f54a-4307-a3c9-e76b184f8028">
+      <Language>1036</Language>
+      <Caption>Clients Groupés</Caption>
+    </Translation>
+  </Translations>
+  <Attributes>
+    <Attribute dwd:design-time-name="8a5775e4-bc5e-4ab8-b660-4945165343e5">
+      <ID>ATTRIBUTE_NAME</ID>
+      <Name>Attribute Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c6364588-2d54-481f-af84-6afa0447cc96">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="40613513-b252-499a-b931-82e889f06641">
+            <TableID>DIMENSION_CONTENT_ROWSET</TableID>
+            <ColumnID>ATTRIBUTE_NAME</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="a19738c7-860f-43f5-a994-3229f9c6f763">
+        <DataType>WChar</DataType>
+        <DataSize>255</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="1dd778e3-4a23-435c-aebe-0504c309865d">
+          <TableID>DIMENSION_CONTENT_ROWSET</TableID>
+          <ColumnID>ATTRIBUTE_NAME</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation dwd:design-time-name="e9609de4-29ed-44d6-b14c-7edf8c82a624">
+          <Language>3082</Language>
+          <Caption>Nombre de la Cualidad</Caption>
+        </Translation>
+        <Translation dwd:design-time-name="bed8035d-497f-4ac1-8481-53aabb1e9a48">
+          <Language>1036</Language>
+          <Caption>Nom de l''Attribut</Caption>
+        </Translation>
+      </Translations>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyOrdered>false</AttributeHierarchyOrdered>
+      <AttributeHierarchyOptimizedState>NotOptimized</AttributeHierarchyOptimizedState>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <GroupingBehavior>DiscourageGrouping</GroupingBehavior>
+      <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="dab5a837-fcc9-4b6c-862b-b6ac21c37d29">
+      <ID>PARENT_UNIQUE_NAME</ID>
+      <Name>Customer Clusters</Name>
+      <Usage>Parent</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c50bbb94-d10d-40f8-9a32-633f46926ba7">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b43a23fc-ce06-4581-ba4f-db2c6477d857">
+            <TableID>DIMENSION_CONTENT_ROWSET</TableID>
+            <ColumnID>PARENT_UNIQUE_NAME</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="8e0245a4-5872-4e95-9f7e-0368fccd7224">
+        <DataType>WChar</DataType>
+        <DataSize>255</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="d03c4e9e-6842-4818-8eb3-b19f84d59e88">
+          <TableID>DIMENSION_CONTENT_ROWSET</TableID>
+          <ColumnID>PARENT_UNIQUE_NAME</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation dwd:design-time-name="a4d1b2fc-2c40-4231-ad54-905d25220205">
+          <Language>3082</Language>
+          <Caption>Grupos de Clientes</Caption>
+        </Translation>
+        <Translation dwd:design-time-name="7b4dbd2f-063b-481a-b92e-a3587897db51">
+          <Language>1036</Language>
+          <Caption>Groupes de Clients</Caption>
+        </Translation>
+      </Translations>
+      <OrderBy>Key</OrderBy>
+      <MembersWithData>NonLeafDataHidden</MembersWithData>
+      <GroupingBehavior>DiscourageGrouping</GroupingBehavior>
+      <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="3f972d62-21b5-4441-9a2b-7cb18e618cb1">
+      <ID>NODE_UNIQUE_NAME</ID>
+      <Name>Node Unique Name</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="68c11c73-9486-415a-a7ac-2924ffc635fb">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b0977081-00d6-46dd-8a69-229b1012608d">
+            <TableID>DIMENSION_CONTENT_ROWSET</TableID>
+            <ColumnID>NODE_UNIQUE_NAME</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="a2808fbb-8b76-425a-8b96-13ee507713c0">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="1cbdc2f7-c949-49c7-b93e-bd0c991fd563">
+          <TableID>DIMENSION_CONTENT_ROWSET</TableID>
+          <ColumnID>NODE_CAPTION</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation dwd:design-time-name="919912de-ef6f-4af9-83f9-8ea9568149e3">
+          <Language>3082</Language>
+          <Caption>Nombre Unico del Nodo</Caption>
+        </Translation>
+        <Translation dwd:design-time-name="652a908a-92de-4137-9121-0037c33e490a">
+          <Language>1036</Language>
+          <Caption>Nom Unique de Noeud</Caption>
+        </Translation>
+      </Translations>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="fc68a5e6-0992-4080-992e-95345c635988">
+          <AttributeID>PARENT_UNIQUE_NAME</AttributeID>
+          <Name>Customer Clusters</Name>
+          <Translations>
+            <Translation dwd:design-time-name="9394ce37-62d8-4951-9532-3605405fc511">
+              <Language>3082</Language>
+              <Caption>Grupos de Clientes</Caption>
+            </Translation>
+            <Translation dwd:design-time-name="db435299-84c6-4252-aa33-eb0ac07c6d63">
+              <Language>1036</Language>
+              <Caption>Groupes de Clients</Caption>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b047679f-1e6c-4a9f-96ac-e7ddd02228df">
+          <AttributeID>ATTRIBUTE_NAME</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Attribute Name</Name>
+          <Translations>
+            <Translation dwd:design-time-name="6b997db6-5379-41e3-a9d5-b9f988384ca5">
+              <Language>3082</Language>
+              <Caption>Nombre de la Cualidad</Caption>
+            </Translation>
+            <Translation dwd:design-time-name="7b47a3cd-1293-422e-b911-5633df9ebb9d">
+              <Language>1036</Language>
+              <Caption>Nom de l''Attribut</Caption>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <GroupingBehavior>DiscourageGrouping</GroupingBehavior>
+      <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <AttributeAllMemberName>All Customer Clusters</AttributeAllMemberName>
+  <AttributeAllMemberTranslations>
+    <AttributeAllMemberTranslation dwd:design-time-name="bd88cd71-c0f8-44c7-ba11-f05ee75c5d2f">
+      <Language>3082</Language>
+      <Caption>Todos los Cliented Agrupados</Caption>
+    </AttributeAllMemberTranslation>
+    <AttributeAllMemberTranslation dwd:design-time-name="49d5856c-5c8b-4b27-afd4-d019eadd6fcb">
+      <Language>1036</Language>
+      <Caption>Totals Clients Groupés</Caption>
+    </AttributeAllMemberTranslation>
+  </AttributeAllMemberTranslations>
+  <ProactiveCaching dwd:design-time-name="383f6d44-3b0f-4697-a65c-0a9d13b97492">
+    <SilenceInterval>-PT1S</SilenceInterval>
+    <Latency>-PT1S</Latency>
+    <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+    <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+    <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="fd50a700-358a-49f2-8939-454c73b42d7d" />
+  </ProactiveCaching>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

@@ -1,0 +1,98 @@
+﻿<Role xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="80859cc9-7060-4638-bc92-45ac24c45261" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Role 1</ID>
+  <Name>dw_reader</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Members>
+    <Member>
+      <Name>Administrator</Name>
+    </Member>
+    <Member>
+      <Name>ALL APPLICATION PACKAGES</Name>
+    </Member>
+    <Member>
+      <Name>alpha</Name>
+    </Member>
+    <Member>
+      <Name>NT AUTHORITY\ANONYMOUS LOGON</Name>
+    </Member>
+    <Member>
+      <Name>NT AUTHORITY\Authenticated Users</Name>
+    </Member>
+    <Member>
+      <Name>Authentication authority asserted identity</Name>
+    </Member>
+    <Member>
+      <Name>NT AUTHORITY\BATCH</Name>
+    </Member>
+    <Member>
+      <Name>CONSOLE LOGON</Name>
+    </Member>
+    <Member>
+      <Name>CREATOR GROUP</Name>
+    </Member>
+    <Member>
+      <Name>CREATOR OWNER</Name>
+    </Member>
+    <Member>
+      <Name>DefaultAccount</Name>
+    </Member>
+    <Member>
+      <Name>NT AUTHORITY\DIALUP</Name>
+    </Member>
+    <Member>
+      <Name>Everyone</Name>
+    </Member>
+    <Member>
+      <Name>Guest</Name>
+    </Member>
+    <Member>
+      <Name>NT AUTHORITY\INTERACTIVE</Name>
+    </Member>
+    <Member>
+      <Name>NT AUTHORITY\IUSR</Name>
+    </Member>
+    <Member>
+      <Name>JLG12</Name>
+    </Member>
+    <Member>
+      <Name>NT AUTHORITY\Local account</Name>
+    </Member>
+    <Member>
+      <Name>NT AUTHORITY\Local account and member of Administrators group</Name>
+    </Member>
+    <Member>
+      <Name>NT AUTHORITY\LOCAL SERVICE</Name>
+    </Member>
+    <Member>
+      <Name>NT AUTHORITY\NETWORK</Name>
+    </Member>
+    <Member>
+      <Name>NT AUTHORITY\NETWORK SERVICE</Name>
+    </Member>
+    <Member>
+      <Name>OWNER RIGHTS</Name>
+    </Member>
+    <Member>
+      <Name>NT AUTHORITY\REMOTE INTERACTIVE LOGON</Name>
+    </Member>
+    <Member>
+      <Name>NT AUTHORITY\SERVICE</Name>
+    </Member>
+    <Member>
+      <Name>Service asserted identity</Name>
+    </Member>
+    <Member>
+      <Name>NT AUTHORITY\SYSTEM</Name>
+    </Member>
+    <Member>
+      <Name>NT AUTHORITY\TERMINAL SERVER USER</Name>
+    </Member>
+    <Member>
+      <Name>NT AUTHORITY\This Organization Certificate</Name>
+    </Member>
+    <Member>
+      <Name>WDAGUtilityAccount</Name>
+    </Member>
+  </Members>
+</Role>
